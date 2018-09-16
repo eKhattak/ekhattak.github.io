@@ -1,0 +1,10 @@
+.autocomplete-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: green
+}
+
+.fa-4x {
+    margin:0px 10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <title>Github User Finder</title>
+
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+      <!-- ION ICON -->
+      <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+      <link rel="stylesheet" href="main.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+        <nav class="teal">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo">Github Finger</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="search-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 offset-s3">
+                        <div class="error-message red lighten-3 center white-text">
+                            <p style="font-size: 18px">Could not Find the User</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel grey lighten-5">
+                            <h5>Github User Finder</h5>
+                            <p class="grey-text">Enter a username to fetch user's profile info and repo</p>
+                            <div class="input-field">
+                                <input type="text" name="name" id="name">
+                                <label for="name">Name</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container">
+                <div class="row">
+                    <div class="collection">
+                        <a href="${repo.html_url}" class="collection-item">${repo.name}
+                        <span class="secondary-content repo-icons">
+                        <span class="blue-text secondary-item">0 <i class="fas fa-star"></i></span>
+                        <span class="grey-text secondary-item">11 <i class="fas fa-eye"></i></span>
+                        <span class="green-text secondary-item">22 <ion-icon name="git-network"></ion-icon></span>
+                        </span>
+                        </a>
+                        <a href="${repo.html_url}" class="collection-item ">${repo.name}
+                        <span class="secondary-content repo-icons">
+                        <span class="blue-text secondary-item">999 <i class="fas fa-star"></i></span>
+                        <span class="grey-text secondary-item">0 <i class="fas fa-eye"></i></span>
+                        <span class="green-text secondary-item">22 <ion-icon name="git-network"></ion-icon></span>
+                        </span>
+                        </a>
+                        
+                </div>
+            </div> -->
+        </div>
+
+        <section class="section" id="profile">
+
+            
+        </section>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+     <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+      <script src="app-functions.js"></script>
+      <script src="app.js"></script>
+              
+    </body>
+  </html>

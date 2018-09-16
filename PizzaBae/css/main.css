@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url('https://fonts.googleapis.com/css?family=Galada');
+
+
+/* MAIN COMPONENT */
+
+html , body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/main-back.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    color: white;
+    font-size: 16px;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+section {
+    padding: 5% 0;
+    border-bottom: 2px solid rgb(112, 110, 110);
+}
+
+#main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.icon-big {
+    font-size:350%;
+    color: rgb(199, 216, 219);
+    
+}
+.icon-small {
+    font-size: 200%;
+}
+
+.container {
+    width: 95%;
+    margin:auto;
+}
+.container-two {
+    width: 80%;
+    margin: auto;
+}
+
+.img-section {
+    background-image: linear-gradient(rgba(6, 6, 12, 0.5), rgba(131, 131, 4, 0.5)),  url("../img/pic1.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size:cover;
+}
+/* BUTTONS */
+.btn {
+    background: none;
+    border: 1px solid white;
+    padding: .5em 1em;
+    color: #D5CB41;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: rgb(138, 131, 35);
+    color: white;
+    transition: background 500ms , color 500ms;
+}
+
+/* HEADER COMPONENT */
+
+header {
+    /* background: rgba(219, 219, 219, 0.5); */
+    height: 15%;
+   
+}
+/* HEADINGS COMPONENTS */
+
+h1, h2, h3, h4 {
+
+    font-family: 'Galada', cursive;
+    color: #D5CB41;
+    letter-spacing: 2px;
+    font-size: 250%;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 5%;
+}
+h4 {
+    margin: 0px;
+}
+
+.bg {
+    z-index: 2;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    height: 100%;
+}
+#main-video {    
+    width: 100%;
+    height: 100%;
+}
+
+#intro-section {
+    background-color: #292929ea;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    margin-top: 24px;
+    transition: background 500ms;
+}
+#intro-section:hover {
+    background-color: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+}
+
+#intro-section > .container {
+        text-align: center;
+}
+
+
+/* FEATURES COMPONENT */
+
+#feature-section {
+    height: 50%;
+    background-color: #292929ea;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+   
+}
+#feature-section:hover {
+    background: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+}
+
+#feature-section > .container > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20%;
+    grid-gap: 5%;
+    text-align: center;
+    padding: 0px;
+}   
+
+/* ORDER COMPONENT */
+
+#order-section {
+    background-color: #292929ea;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+    padding-top: 2%;
+}
+
+#order-section:hover {
+    background: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+}
+
+#order-section > .container > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 40%;
+    grid-gap: 10px;
+}
+.order-mainbox {
+    padding: 0px;
+}
+.order-mainbox li {
+    border: 2px solid #535353;
+    border-radius: 10px;
+    background: #535353;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 5%;
+}
+
+
+.order-pizza {
+    max-width: 100%;
+    align-self: center;
+}
+
+.order-text > li {
+    border: none;
+    padding: 10px;
+}
+.order-text h4 {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.order-btn {
+    width: 80%;
+    height: 60%;
+    margin: 20px 0px 0px 20px;
+}
+
+/* Contact COMPONENT */
+
+#contact-section {
+    background-color: #292929ea;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+}
+
+#contact-section:hover {
+    background: #292929;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+}
+
+form  {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-gap: 40px;
+    
+}
+
+input {
+    height: 20px;
+    width: 49%;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border:1px solid #adaaaa;
+    transition: transform 500ms;
+}
+
+input[type=submit] {
+    width: 30%;
+    padding: 1px;
+    padding-right: 5px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+input:focus {
+    transform: scale(1.1);
+    z-index: 99;
+    background: #535353;
+    transition: transform 500ms;
+}
+
+textarea {
+    height: 110px;
+    width: 99%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: transparent ;
+    color: white;
+    outline: none;
+}
+
+#contact-img {
+    background-image: url("../img/email.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    
+}
+
+/* FOOTER COMPONENT */
+footer {
+    height: 15vh;
+    background-color: #292929ea;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    transition: background 500ms;
+    padding: 20px;
+}
+footer li{
+    margin: 10px;
+}
+
+.circle-box {
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+}
+.circle-box:hover {
+    transform: scale(1.1);
+    transition: transform 500ms;
+}
+#footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+i {
+    transition: color 500ms , border 1000ms;
+}
+#facebook:hover {
+    color: #3b5998;
+    border: 2px solid #3b5998;
+}
+
+#twitter:hover {
+    color: #1da1f2;
+    border: 2px solid #1da1f2;
+}
+
+#linkedin:hover {
+    color: #007bb5;
+    border: 2px solid #007bb5;
+}
