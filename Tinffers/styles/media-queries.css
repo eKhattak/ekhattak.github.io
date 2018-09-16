@@ -1,0 +1,28 @@
+@media (max-width: 991.98px) {
+    .navbar-expand-lg > .container {
+        padding-right: 20px;
+        padding-left: 50px;
+    }
+    .contact-img {
+        display: none;
+    }
+    .testimonial-image {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .main h1 {
+        font-size: 250% !important;
+    }
+    p {
+        font-size: 90%;
+    }
+}
+@media (max-width: 590px) {
+    .main h1 {
+        font-size: 200% !important;
+    }
+    p {
+        font-size: 90%;
+    }
+}
