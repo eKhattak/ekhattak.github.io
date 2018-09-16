@@ -1,0 +1,74 @@
+.main-header {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+}
+
+.main-header-inner {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: #fff;
+}
+
+.icon{
+  margin-right: 10px;
+}
+
+.main-header .showcase {
+  padding-top: 100px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.tabs .indicator {
+  background-color: #860d9b !important;
+}
+
+.section-developer {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(112, 81,176, 0.7), rgba(112, 81,176, 0.7)), url('../img/code.jpg');
+  background-position: top;
+  height: 30vh;
+}
+
+.section-podcast {
+  background-image: linear-gradient(to right, rgba(112, 81,176, 0.7), rgba(112, 81,176, 0.7)), url('../img/code.jpg');
+  background-position: bottom;
+  height: 30vh;
+}
+
+.section-podcast .btn {
+  margin-top: 25px;
+}
+
+.section-testimonial p {
+  padding:0px 30px;
+  font-size: 24px !important;
+}
+
+em {
+  font-weight: bold
+}
+
+.btn-extend {
+  display: block;
+  width: 100%
+}
+
+@media (max-width: 600px) {
+  .section-podcast {
+    height: 40vh;
+  }
+  .section-testimonial p {
+    padding:0px 20px;
+    font-size: 20px !important;
+  }
+}
+
